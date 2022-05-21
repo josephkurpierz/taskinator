@@ -246,6 +246,15 @@ var loadTasks = function () {
     taskIdCounter++;
     console.log(listItemEl);
   };
+  // didn't work for me.
+    // var savedTasks = localStorage.getItem("tasks");
+  // if (!savedTasks){
+    //   return false;
+    // }
+  // savedTasks = JSON.parse(savedTasks);
+  // for (var i = 0; i < savedTasks.length; i++) {
+  //   createTaskEl(savedTasks[i]);
+  // }
   
 
 };
